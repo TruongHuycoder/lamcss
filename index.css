@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 0;
+  background-color: #17131f;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.music-app {
+  width: 90%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.site-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.brand {
+  color: #d9ff75;
+  font-family: Georgia, serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-header p {
+  margin: 4px 0 0;
+  color: #b9afc5;
+  font-size: 15px;
+}
+
+.player-card,
+.playlist,
+.quote-card {
+  padding-bottom: 24px;
+  padding: 32px;
+  border: 1px solid #3c3348;
+  border-radius: 22px;
+  background-color: #231d2c;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+.player-card {
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+  color: #d9ff75;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.album-cover {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #554960;
+  border-radius: 16px;
+}
+
+h1,
+h2 {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  margin: 22px 0 4px;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.artist {
+  margin: 0 0 22px;
+  color: #b9afc5;
+  font-size: 16px;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.player-actions {
+  text-align: center;
+}
+
+button {
+  margin: 4px;
+  padding: 11px 16px;
+  border: 1px solid #554960;
+  border-radius: 20px;
+  background-color: #30283a;
+  color: #f4efe8;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.play-button {
+  border: 1px solid #d9ff75;
+  background-color: #d9ff75;
+  color: #17131f;
+}
+
+.playlist h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+.section-note {
+  margin: 8px 0 24px;
+  color: #b9afc5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 15px 8px;
+  border: 1px solid #3c3348;
+  color: #f4efe8;
+}
+
+td span {
+  color: #978ca3;
+  font-size: 13px;
+}
+
+.track-number {
+  width: 54px;
+  color: #d9ff75;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.duration {
+  width: 60px;
+  color: #978ca3;
+  font-size: 13px;
+  text-align: right;
+}
+
+.quote-card {
+  border: 1px solid #d9ff75;
+  background-color: #d9ff75;
+  color: #17131f;
+  text-align: center;
+}
+
+.quote-card p {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font-weight: italic;
+  line-height: 1.5;
+}
+
+footer {
+  padding: 20px 0;
+  color: #978ca3;
+  font-size: 13px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0 0 8px;
+}
+
+footer a {
+  color: #d9ff75;
+  font-weight: bold;
+  text-decoration: none;
+}
